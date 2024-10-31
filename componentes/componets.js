@@ -1,6 +1,9 @@
-<!-- HTML Header -->
-<header>
-    
+// Componente header y footer para ser reutilizados
+const header = document.querySelector("#header");
+const footer = document.querySelector("#footer");
+
+// Cosas del header
+header.innerHTML = `
     <div class="logo">
         <a href="#">MANGA 100%</a>
     </div>
@@ -22,4 +25,9 @@
     <div class="header-actions">
         <a href="#" class="btn-login">Iniciar Sesión</a>
     </div>
-</header>
+`;
+
+
+
+// cosas del footer
+footer.innerHTML = ` `;
