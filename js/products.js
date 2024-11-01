@@ -4,7 +4,7 @@ const productos = [
         "nombre": "Clannad",
         "genero": "Drama, Comedia cinematográfica, Fantasía",
         "precio": 7.99,
-        "imagen": "https://static.wikia.nocookie.net/doblaje-fanon/images/1/1f/MV5BN2VmM2NmMGUtOGQ2OC00Y2ZjLTljNTctYjhmMDJjZjM1NTY3XkEyXkFqcGdeQXVyNDgyODgxNjE%40._V1_.jpg/revision/latest?cb=20190519020828&path-prefix=es"
+        "imagen": "https://www.justwatch.com/images/poster/247920672/s332/temporada-2"
       },
       {
         "id": 2,
@@ -46,7 +46,7 @@ const productos = [
         "nombre": "Go-tōbun no hanayome",
         "genero": "Comedia romántica, harem, recuentos de la vida",
         "precio": 8.99,
-        "imagen": "https://static.wikia.nocookie.net/go-toubun-no-hanayome/images/a/a3/Go-toubun_no_Hanayome_Special.jpg/revision/latest?cb=20240513191951&path-prefix=es"
+        "imagen": "https://www.anmosugoi.com/wp-content/uploads/2024/09/Go-Toubun-no-Hanayome-Special-2-visual-scaled.webp"
       },
       {
         "id": 8,
