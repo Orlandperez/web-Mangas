@@ -12,10 +12,10 @@ header.innerHTML = `
         <nav class="navbar">
             <ul>
                 <li><a class="navbar-item" data-section="Inicio-container" href="./index.html">Inicio</a></li>
-                <li><a class="navbar-item" data-section="Productos-container" href="./products.html">Productos</a></li>
+                <li><a class="navbar-item" data-section="Productos-container" href="./nuestros-mangas.html">Productos</a></li>
                 <li><a class="navbar-item" data-section="Tutoriales-container" href="#">Tutoriales</a></li>
                 <li><a class="navbar-item" data-section="Locales-container" href="#">Locales</a></li>
-                <li><a class="navbar-item" data-section="Nosotros-container" href="#">Nosotros</a></li>
+                <li><a class="navbar-item" data-section="Nosotros-container" href="./trabaja-con-nosotros.html">Nosotros</a></li>
                 <li><a class="navbar-item" data-section="Contacto-container" href="#">Contacto</a></li>
             </ul>
         </nav>
