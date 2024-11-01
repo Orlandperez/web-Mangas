@@ -1,0 +1,28 @@
+.products{
+    width: 100%;
+    height: auto;
+}
+.products .products-conteiner{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 330px);
+    justify-content: center;
+    gap: 2rem;
+}
+.products .products-conteiner .producto{
+    height: 630px;
+    padding: 10px ;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 20px;
+}
+.products .products-conteiner .producto img{
+    width: 100%;
+    height:450px;
+    border-radius: 10px;
+}
+.products .products-conteiner .producto p{
+    margin: 10px 0;
+}

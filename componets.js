@@ -11,8 +11,8 @@ header.innerHTML = `
     <div class="navbar-container" >
         <nav class="navbar">
             <ul>
-                <li><a class="navbar-item" data-section="Inicio-container" href="#">Inicio</a></li>
-                <li><a class="navbar-item" data-section="Productos-container" href="#">Productos</a></li>
+                <li><a class="navbar-item" data-section="Inicio-container" href="./index.html">Inicio</a></li>
+                <li><a class="navbar-item" data-section="Productos-container" href="./products.html">Productos</a></li>
                 <li><a class="navbar-item" data-section="Tutoriales-container" href="#">Tutoriales</a></li>
                 <li><a class="navbar-item" data-section="Locales-container" href="#">Locales</a></li>
                 <li><a class="navbar-item" data-section="Nosotros-container" href="#">Nosotros</a></li>
