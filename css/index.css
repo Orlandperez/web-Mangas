@@ -5,16 +5,23 @@
 }
 
 .introduccion {
+    background-color: #333;
     width: 100%;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.bienvenido h2 {
+    padding-top: 20px;
 }
 
 .slider {  
     position: relative;  
     width: 100%;  
-    max-width: 600px; /* Ajusta el tamaño según tus necesidades */  
     margin: 20px auto;  
     overflow: hidden;  
 }  
