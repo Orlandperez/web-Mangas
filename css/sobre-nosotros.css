@@ -1,0 +1,70 @@
+.container-about-us {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-about-us h3 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Contenedor principal */
+.container-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contenedor de cada columna */
+.container-columna {
+    flex: 1 1 45%;
+    max-width: 45%;
+    min-width: 300px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container-columna {
+        max-width: 100%;
+    }
+}
+
+/* Estilos de texto */
+.container-columna h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container-columna p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.container-columna strong {
+    color: rgb(243, 180, 98);
+}
+
+/* Enlace de contacto */
+.container-columna a {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: rgb(243, 180, 98);
+    text-decoration: none;
+}
+
+.container-columna a:hover {
+    text-decoration: underline;
+}
