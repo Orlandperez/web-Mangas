@@ -73,4 +73,8 @@
     border: 1px solid rgb(201, 201, 201);
     border-radius: 10px;
     cursor: pointer;
+    transition: .3s;
+}
+.formu .formu-datos button:hover{
+    background-color: rgb(230, 155, 58);
 }

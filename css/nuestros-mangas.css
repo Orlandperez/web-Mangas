@@ -11,11 +11,12 @@
     grid-template-columns: repeat(auto-fit, 330px);
     justify-content: center;
     gap: 2rem;
+    margin-bottom: 50px;
 }
 .products .products-conteiner .producto{
     height: 630px;
     padding: 10px ;
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid rgb(253, 181, 113);
     border-radius: 20px;
 }
 .products .products-conteiner .producto img{
