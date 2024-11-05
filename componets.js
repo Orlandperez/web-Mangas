@@ -30,4 +30,8 @@ header.innerHTML = `
 
 
 // cosas del footer
-footer.innerHTML = ` `;
+footer.innerHTML = `
+      <footer> 
+         <p>&copy; 2024 Tienda de Mangas. Todos los derechos reservados.</p>
+      </footer>
+`;

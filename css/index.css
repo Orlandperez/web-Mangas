@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.introduccion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {  
+    position: relative;  
+    width: 100%;  
+    max-width: 600px; /* Ajusta el tamaño según tus necesidades */  
+    margin: 20px auto;  
+    overflow: hidden;  
+}  
+
+.slides {  
+    display: flex;  
+    transition: transform 0.5s ease-in-out;  
+}  
+
+.slide {  
+    min-width: 100%;  
+    box-sizing: border-box;  
+}  
+
+.slide img {  
+    width: 100%;  
+    display: block;  
+}  

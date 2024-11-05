@@ -8,20 +8,91 @@
     <!-- link css -->
      <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/componets.css">
+    <link rel="stylesheet" href="./css/suscripcion.css">
 </head>
 
 <body>
     <!-- Header -->
-     <header id="header"></header>
 
+     <header id="header"> </header>
+
+   <!--MENSAJE LLAMADO PARA SUSCRIPCION-->
+
+    <div id="myModal" class="modal">  
+        <div class="modal-content">  
+            <span class="close">&times;</span>  
+            <h2>¡Suscríbete a nuestra tienda de mangas!</h2>  
+            <p>Ingresa tu correo electrónico para recibir novedades y promociones.</p>  
+            <input type="email" id="email" placeholder="Tu correo electrónico" required>  
+            <button id="subscribeBtn">Suscribirse</button>  
+        </div>  
+    </div>  
+
+    <div id="thankYouModal" class="modal">  
+        <div class="modal-content">  
+            <span class="close-thank-you">&times;</span>  
+            <h2>¡Gracias por suscribirte!</h2>  
+            <p>Te has suscrito con éxito. ¡Esté atento a nuestras novedades!</p>  
+        </div>  
+    </div>  
     <!-- Main -->
+    
+    <main>  
 
+        <section class="introduccion">  
+            
+            <div class="bienvenido">
+               <h2>Bienvenidos a Tienda de mangas</h2>  
+               <p>¡Acá vas a poder encontrar todo lo estás buscando!</p>  
+            </div>
+             <!-- Slider -->  
+            <div class="slider">  
+                <div class="slides">  
+                    <div class="slide"><img src="./imagenes/tienda_1.jpg" alt="Imagen 1"></div>  
+                    <div class="slide"><img src="./imagenes/tienda_2.jpeg" alt="Imagen 2"></div>  
+                    <div class="slide"><img src="./imagenes/tienda_3.jpg" alt="Imagen 3"></div>  
+                </div>  
+            </div> 
+        </section>  
+    
+        <section class="sobre-nosotros">  
+            <h2>Sobre Nosotros</h2>  
+            <p>En esta sección, proporcionamos información sobre nuestra empresa y nuestro equipo.</p>  
+        </section>  
+    
+        <section class="servicios">  
+            <h2>Servicios</h2>  
+            <p>Aquí describimos los servicios que ofrecemos a nuestros clientes.</p>  
+        </section>  
+    
+        <section class="portafolio">  
+            <h2>Portafolio</h2>  
+            <p>Esta sección muestra ejemplos de nuestro trabajo anterior y proyectos destacados.</p>  
+        </section>  
+    
+        <section class="testimonios">  
+            <h2>Testimonios</h2>  
+            <p>En esta sección, compartimos comentarios y opiniones de nuestros clientes satisfechos.</p>  
+        </section>  
+    
+        <section class="contacto">  
+            <h2>Contacto</h2>  
+            <p>Aquí proporcionamos información de contacto y un formulario para que los visitantes se comuniquen con nosotros.</p>  
+        </section>  
+
+    </main>  
+    
+   
 
     <!-- Footer -->
-     <footer id="footer"></footer>
+     <footer id="footer">
 
 
-     <!-- js -->
+     </footer>
+     
+
+     <!-- js --> 
+      <script src="./js/suscripcion.js"></script> 
       <script src="./componets.js"></script>
       <script src="./js/index.js"></script>
 </body>

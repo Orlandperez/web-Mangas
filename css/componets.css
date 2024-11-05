@@ -45,3 +45,17 @@ header .navbar a {
     border-radius: 5px;
     text-decoration: none;
 }
+
+/* CSS Main */
+
+/*main { }*/  
+
+/* CSS footer */
+
+footer {  
+    background-color: #f1f1f1; 
+    text-align: center;
+    padding: 5px; 
+    width: 100%; 
+    margin: 0 auto;
+}  
