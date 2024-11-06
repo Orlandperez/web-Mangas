@@ -14,7 +14,7 @@ header.innerHTML = `
                 <li id=inicio-container><a class="navbar-item" data-section="Inicio-container" href="./index.html">Inicio</a></li>
                 <li id=novedades-container><a class="navbar-item" data-section="Novedades-container" href="./novedades.html">Novedades</a></li>
                 <li id=productos-container><a class="navbar-item" data-section="Productos-container" href="./nuestros-mangas.html">Nuestros Mangas</a></li>
-                <li id=tutoriales-container><a class="navbar-item" data-section="Tutoriales-container" href="#">Tutoriales</a></li>
+                <li id=tutoriales-container><a class="navbar-item" data-section="Tutoriales-container" href="./tutoriales.html">Tutoriales</a></li>
                 <li id=locales-container><a class="navbar-item" data-section="Locales-container" href="#">Locales</a></li>
                 <li id=nosotros-container><a class="navbar-item" data-section="Nosotros-container" href="./trabaja-con-nosotros.html">Sumate a Nuestro Equipo</a></li>
                 <li id=nosotros-container><a class="navbar-item" data-section="Nosotros-container" href="./trabaja-con-nosotros.html">Sobre Nosotros</a></li>
