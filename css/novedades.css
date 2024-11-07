@@ -1,3 +1,20 @@
+body {
+    background: linear-gradient(40deg,#ffffff, #ffffff,  #f3d07d80, #ffffff, #ffffff);
+    background-size: 400%, 400%;
+    animation: gradienteAnimacion 15s ease infinite;
+}
+
+@keyframes gradienteAnimacion {
+    0% {
+        background-position: 0%, 50%;
+    }
+    50% {
+        background-position: 100%, 50%;
+    }
+    100% {0%, 50%;
+    }
+}
+
 .anchoPagina {
     max-width: 1000px;  
     margin: auto;     
@@ -7,7 +24,8 @@
 h1{
     text-align: center;
     font-family: Arial, sans-serif;
-    
+    margin-top: 40px;
+    color: rgb(151, 118, 88);
 }
 
 /* Animacion*/
@@ -32,7 +50,7 @@ h1{
     border-width: 1px;
     border-radius: 8px;
     padding: 5px;
-    border-color: bisque;
+    border-color: rgb(253, 181, 113);
 
     view-timeline-name: --div;
     view-timeline-axis: block;
