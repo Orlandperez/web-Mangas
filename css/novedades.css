@@ -25,7 +25,18 @@ h1{
     text-align: center;
     font-family: Arial, sans-serif;
     margin-top: 40px;
-    color: rgb(151, 118, 88);
+    color: rgb(253, 181, 113);
+
+    text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),
+        1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+        1px  1px 0 rgb(255, 255, 255);
+}
+
+
+p {
+    padding-bottom: 30px;
 }
 
 /* Animacion*/
@@ -74,7 +85,6 @@ h1{
 .fotoEscolar {
     width: 350px;
     height: 470px;
-    margin-bottom: 40px;
     border-radius: 5%;
 }
 
@@ -93,7 +103,7 @@ h1{
 .fotoTerror {
     width: 550px;
     height: 450px;
-    margin-bottom: 40px;
+    
     border-radius: 5%;
 }
 
@@ -112,7 +122,7 @@ h1{
 .fotoEscolar2 {
     width: 350px;
     height: 470px;
-    margin-bottom: 40px;
+    
     border-radius: 5%;
 }
 
@@ -130,10 +140,58 @@ h1{
 .fotoIsekai {
     width: 550px;
     height: 450px;
-    margin-bottom: 40px;
+    
     border-radius: 5%;
 }
 
 .parrafoFoto4{
     margin-left: 50px;
+}
+
+@media (max-width: 1000px) {
+    
+    .fotoTerror {
+        height: 350px;
+        width: 420px;
+    }
+
+    .fotoIsekai{
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%; 
+        height: auto;
+    }
+
+    .fotoManga, .fotoManga2, .fotoManga3, .fotoManga4 {
+        flex-direction: column;
+    }
+
+    .fotoTerror, .fotoIsekai {
+        margin-bottom: 40px;
+    }
+
+    .fotoEscolar, .fotoEscolar2 {
+        margin-top: 20px;
+    }
+
+    .fotoTerror {
+        width: 400px;
+        height: 300px;
+    }
+
+    .parrafoFoto2, .parrafoFoto4 {
+        margin-left: 0%;
+    }
+    
 }

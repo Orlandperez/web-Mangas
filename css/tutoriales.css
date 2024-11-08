@@ -21,7 +21,7 @@ p {
     color: white
 }
 
-.fotosTutorial {
+.fotosTutorial1, .fotosTutorial2, .fotosTutorial3 {
     display: block;
     margin: auto;
     display: block;
@@ -29,6 +29,25 @@ p {
     margin-bottom: 10px;
 }
 
+@media (max-width: 900px) {
 
+    p {
+        font-size: 1rem;
+    }
+    .fotosTutorial1 {
+        height: 300px;
+        width: 100%;
+    }
+}
 
+@media (max-width: 720px) {
 
+    p {
+        font-size: 1rem;
+    }
+    
+    .fotosTutorial1 {
+        height: 200px;
+        width: 100%;
+    }
+}
