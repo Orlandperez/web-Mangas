@@ -77,7 +77,7 @@ function mostrarProductos() {
 
     // Mostrar solo 4 productos
 
-    for(let i = 0; i < 8; i++) {
+    for(let i = 0; i < 4; i++) {
         const producto = productos[i];
         const flexItem = document.createElement('div');
         flexItem.classList.add('flex-item');
@@ -101,7 +101,7 @@ mostrarProductos();
 
 // Actualizar productos cada 10 segundos
 
-let startIndex = 8;
+let startIndex = 4;
 setInterval(() => {
     if (startIndex >= productos.length) {
         startIndex = 0;
@@ -111,7 +111,7 @@ setInterval(() => {
     container.innerHTML = ''; // Limpiar el contenedor
 
     // Mostrar los siguientes 4 productos
-    for(let i = 0; i < 8; i++) {
+    for(let i = 0; i < 4; i++) {
         const index = (startIndex + i) % productos.length;
         const producto = productos[index];
         const flexItem = document.createElement('div');
@@ -129,5 +129,5 @@ setInterval(() => {
         container.appendChild(flexItem);
     }
 
-    startIndex += 8;
+    startIndex += 4;
 }, 10000); // Cambiar cada 10 segundos

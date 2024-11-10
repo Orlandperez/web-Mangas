@@ -78,3 +78,10 @@ button:hover {
     color: rgb(243, 180, 98);
     border: 2px solid rgb(243, 180, 98, 1);
 }  
+
+@media (max-width: 480px){
+    #footer{
+        height: 100vh;
+    }
+
+}
