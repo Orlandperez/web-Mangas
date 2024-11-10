@@ -1,33 +1,41 @@
-* {
+*body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Asegurar que el body y html ocupen toda la pantalla */
 
 
 h1 {
     margin: 20px 10px;
-    font-size: 2.2em;  
-    color: #151414;
+    font-size: 3em;  /* Aumenta el tamaño de la fuente */
+    color: rgb(5, 5, 4);
+    background-clip: text;
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.5px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);  /* Sombra suave para destacar el texto */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);  /* Hace que el texto crezca ligeramente al pasar el mouse */
+    text-decoration: underline;
 }
 
 /* Contenedor del mapa */
+
 .map-container {
-    width: 1000%;
+    width: 100%;
     max-width: 1200px;
     height: 60vh; /* Usar 60% de la altura de la ventana */
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px; /* Aumenta el espacio debajo del mapa */
     background-color: #fff;
     border: 4px solid #e0e0e0;
-    
 }
 
 /* Estilos para el iframe del mapa */
@@ -35,7 +43,9 @@ h1 {
     width: 100%;
     height: 100%;
     border: none;
+    
 }
+
 
 
 /* Adaptabilidad para dispositivos móviles */
