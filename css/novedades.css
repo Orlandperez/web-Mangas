@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient (40deg,#ffffff, #ffffff,  #f3d07d80, #ffffff, #ffffff);
+    background: linear-gradient(40deg, #fcfcfc, #ffffff,  #f3d07d80, #ffffff, #ffffff);
     background-size: 400%, 400%;
-    animation: gradienteAnimacion 15s ease infinite;
+    animation: gradienteAnimacion 10s ease infinite;
 }
 
 @keyframes gradienteAnimacion {
@@ -11,7 +11,7 @@ body {
     50% {
         background-position: 100%, 50%;
     }
-    100% {0%, 50%;
+    100% {background-position: 0%, 50%;
     }
 }
 
@@ -62,6 +62,7 @@ p {
     border-radius: 8px;
     padding: 5px;
     border-color: rgb(253, 181, 113);
+    /*Fin de borde*/
 
     view-timeline-name: --div;
     view-timeline-axis: block;
@@ -69,7 +70,7 @@ p {
     animation-timeline: --div;
     animation-name: show;
 
-    animation-range: entry 10% cover 40%;
+    animation-range: entry 10% cover 45%;
     animation-fill-mode: both;
 
 }
@@ -148,6 +149,8 @@ p {
     margin-left: 50px;
 }
 
+/*------Cambio de pantla N°1*/
+
 @media (max-width: 1000px) {
     
     .fotoTerror {
@@ -180,11 +183,13 @@ p {
         animation-timeline: --div;
         animation-name: show;
     
-        animation-range: entry 5% cover 20%;
+        animation-range: entry 15% cover 30%;
         animation-fill-mode: both;
     
     }
 }
+
+/*------Cambio de pantla N°2*/
 
 @media (max-width: 720px) {
     p {
@@ -211,7 +216,7 @@ p {
         animation-timeline: --div;
         animation-name: show;
     
-        animation-range: entry 3% cover 15%;
+        animation-range: entry 20% cover 35%;
         animation-fill-mode: both;
     
     }
