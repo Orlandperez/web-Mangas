@@ -5,27 +5,20 @@ const footer = document.querySelector("#footer");
 // Cosas del header
 header.innerHTML = `
     <div class="logo">
-        <a href="#">MANGA 100%</a>
+        <a href="./index.html">MANGA 100%</a>
     </div>
 
-    <div class="navbar-container" >
-        <nav class="navbar">
-            <ul>
-                <li id=inicio-container><a class="navbar-item" data-section="Inicio-container" href="./index.html">Inicio</a></li>
-                <li id=novedades-container><a class="navbar-item" data-section="Novedades-container" href="./novedades.html">Novedades</a></li>
-                <li id=productos-container><a class="navbar-item" data-section="Productos-container" href="./nuestros-mangas.html">Nuestros Mangas</a></li>
-                <li id=tutoriales-container><a class="navbar-item" data-section="Tutoriales-container" href="./tutoriales.html">Tutoriales</a></li>
-                <li id=locales-container><a class="navbar-item" data-section="Locales-container" href="./locales.html">Locales</a></li>
-                <li id=nosotros-container><a class="navbar-item" data-section="Nosotros-container" href="./trabaja-con-nosotros.html">Sumate a Nuestro Equipo</a></li>
-                <li id=nosotros-container><a class="navbar-item" data-section="Nosotros-container" href="./sobre-nosotros.html">Sobre Nosotros</a></li>
-                <li id=contacto-container><a class="navbar-item" data-section="Contacto-container" href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-
-
-    <div class="header-actions">
-        
+    <div class="nav-container" >  
+        <ul>
+          <li> <a href="./novedades.html">Novedades</a></li>
+          <li> <a href="./nuestros-mangas.html">Nuestros Mangas</a></li>
+          <li> <a href="./tutoriales.html">Tutoriales</a></li>
+          <li> <a href="./locales.html">Locales</a></li>
+          <li> <a href="./trabaja-con-nosotros.html">Sumate a Nuestro Equipo</a></li>
+          <li> <a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li> <a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <i class="bi bi-list"></i>
     </div>
 `;
 

@@ -1,3 +1,17 @@
+// Menu amburguesa
+const menu = document.querySelector('i');
+const links = document.querySelector('ul');
+
+menu.addEventListener("click", () =>{
+    links.classList.toggle("mobile-menu")
+});
+
+
+
+
+
+
+// .................
 document.addEventListener("DOMContentLoaded", function() {  
     const slides = document.querySelectorAll('.slide');  
     const prevBtn = document.getElementById('prevBtn');  

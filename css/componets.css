@@ -7,57 +7,44 @@
 
 /* CSS Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
-    background-color: #151414;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: #151414;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  color: #fff;
+  height: 90px;
 }
-
+header .logo{
+width: 25%;
+text-align: center;
+}
 header .logo a {
-    font-size: 1.5em;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-header .navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    border-radius: 10px;
-    
+header .nav-container ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
 }
-
-
-header .navbar-item{
-    color: #fff;
-    padding:12px 15px;
-    border-radius: 10px;
-   
+header .nav-container ul li{
+margin: 0 13px;
 }
-
-header .navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    transition: 0.5s;
+header .nav-container ul li a{
+font-size: 15px;
+text-decoration: none;
+color: white;
 }
-.navbar-item:hover {
-    text-decoration:underline;
-    color: rgb(243, 180, 98);
-
-
+header .nav-container ul li a:hover{
+color: rgb(236, 184, 120);
 }
-
-.header-actions .btn-login {
-    padding: 5px 10px;
-    color: #ffffff;
-    background-color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    
+header .nav-container i{
+display: none;
 }
 
 /* CSS Main */
@@ -131,4 +118,40 @@ footer {
     background-color: #777;
   }
   
+/* responsive */
+  @media (max-width: 1260px){
+    header .logo{
+      width: auto;
+      padding: 0 40px;
+    }
+  }
+  
+  @media (max-width: 1150px){
+    header {
+      justify-content: space-around;
+    }
+    header .nav-container ul{
+      position: fixed;
+      display: block;   
+      text-align: center;    
+      line-height: 35px;
+      margin-right: -100%;
+      margin-top: 10px;
+      width: auto;
+      height: auto;
+      padding: 1rem;
+      top: 75px;
+      right: 0px;
+      background-color: rgba(24, 24, 24, 0.753);
+      transition: all .2s;
+    }
+    header .nav-container i{
+      display: inline-block;
+      font-size: 30px;
+    }
+    header .nav-container ul.mobile-menu{
+      margin-right: 0;
+      transition: all .7s;
+  }
+  }
 
