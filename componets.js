@@ -18,7 +18,7 @@ header.innerHTML = `
                 <li id=locales-container><a class="navbar-item" data-section="Locales-container" href="#">Locales</a></li>
                 <li id=nosotros-container><a class="navbar-item" data-section="Nosotros-container" href="./trabaja-con-nosotros.html">Sumate a Nuestro Equipo</a></li>
                 <li id=nosotros-container><a class="navbar-item" data-section="Nosotros-container" href="./sobre-nosotros.html">Sobre Nosotros</a></li>
-                <li id=contacto-container><a class="navbar-item" data-section="Contacto-container" href="#">Contacto</a></li>
+                <li id=contacto-container><a class="navbar-item" data-section="Contacto-container" href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </div>

@@ -1,18 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {  
     const slides = document.querySelectorAll('.slide');  
+    const prevBtn = document.getElementById('prevBtn');  
+    const nextBtn = document.getElementById('nextBtn');  
     let currentIndex = 0;  
 
-    function showNextSlide() {  
-        slides[currentIndex].style.display = 'none'; // Ocultar la diapositiva actual  
-        currentIndex = (currentIndex + 1) % slides.length; // Mover al siguiente índice  
-        slides[currentIndex].style.display = 'block'; // Mostrar la nueva diapositiva  
+    function showSlide(index) {  
+        const totalSlides = slides.length;  
+        currentIndex = (index + totalSlides) % totalSlides; // Asegura que el índice esté dentro del rango  
+        const offset = -currentIndex * 100; // Calcular el desplazamiento  
+        document.querySelector('.slides').style.transform = `translateX(${offset}%)`;  
     }  
 
-    // Inicializar el slider  
-    slides.forEach((slide, index) => {  
-        slide.style.display = index === 0 ? 'block' : 'none'; // Mostrar solo la primera diapositiva  
+    prevBtn.addEventListener('click', () => {  
+        showSlide(currentIndex - 1);  
     });  
 
-    // Cambiar de diapositiva cada 3 segundos  
-    setInterval(showNextSlide, 3000);  
-}); 
+    nextBtn.addEventListener('click', () => {  
+        showSlide(currentIndex + 1);  
+    });  
+
+    showSlide(currentIndex); // Mostrar la primera diapositiva  
+});  
