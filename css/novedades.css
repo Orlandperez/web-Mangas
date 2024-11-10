@@ -19,6 +19,7 @@ body {
     max-width: 1000px;  
     margin: auto;     
     padding: 10px;
+    font-size: 21px;
 }
 
 h1{
@@ -149,7 +150,7 @@ p {
     margin-left: 50px;
 }
 
-/*------Cambio de pantla N°1*/
+/*------Cambio de pantalla N°1*/
 
 @media (max-width: 1000px) {
     
@@ -189,7 +190,7 @@ p {
     }
 }
 
-/*------Cambio de pantla N°2*/
+/*------Cambio de pantalla N°2*/
 
 @media (max-width: 720px) {
     p {
@@ -221,15 +222,15 @@ p {
     
     }
 
-    img {
-        max-width: 100%;
-        width: 100%; 
-        height: auto;
-    }
-
     .fotoManga, .fotoManga2, .fotoManga3, .fotoManga4 {
         flex-direction: column;
     }
+
+    .fotoManga2, .fotoManga4 {
+        flex-direction: column-reverse;
+    }
+
+
 
     .fotoTerror, .fotoIsekai {
         margin-bottom: 40px;
@@ -240,12 +241,13 @@ p {
     }
 
     .fotoTerror {
-        width: 400px;
+        width: 350px;
         height: 300px;
     }
 
     .parrafoFoto2, .parrafoFoto4 {
         margin-left: 0%;
+        padding-bottom: 30px;
     }
     
 }
